@@ -1,0 +1,65 @@
+
+
+/* Phần menu-home */
+/**************************************************************************/
+/**************************************************************************/
+/**************************************************************************/
+
+
+/* định dạng hình dạng, vị trí menu-home trước khi hover */
+/**************************************************************************/
+
+/* Phần chức hình ảnh */
+#menu-home{
+    width: 70px;
+    height: 70px;
+
+    background: radial-gradient(circle at 40px 40px, #1B2735 0%, #090A0F 100%);
+    opacity: 0.2;
+
+    position: absolute;
+    bottom: 20px;
+    left: 45%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 100%;
+    border: 2px solid rgb(245, 245, 198);
+
+    transition-duration: 400ms;
+}
+
+
+
+/* định dạng hình ảnh menu-home */
+#menu-home img{
+    width: 50%;
+    transform: translateX(-2px);
+}
+
+
+
+/* định dạng hình dạng, vị trí menu-home khi hover */
+/**************************************************************************/
+
+#menu-home:hover{
+    width: 100px;
+    height: 100px;
+
+    opacity: 1;
+
+    position: absolute;
+    bottom: 10px;
+    left: 44%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 100%;
+    border: 2px solid rgb(255, 255, 128);
+
+    box-shadow: 0px 1px 6px rgb(255, 255, 128);
+}
