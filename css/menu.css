@@ -28,7 +28,10 @@
     border-radius: 100%;
     border: 2px solid rgb(245, 245, 198);
 
-    transition-duration: 400ms;
+    transition-duration: 300ms;
+
+    transform-style: preserve-3d;
+    transform: translateZ(300px);
 }
 
 
