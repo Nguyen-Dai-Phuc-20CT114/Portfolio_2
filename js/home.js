@@ -1,6 +1,5 @@
 function taoSoNgauNhien(min, max){
     return Math.floor(Math.random()*(max - min + 1)) + min;
-    console.log('Có tạo số ngẫu nhiên');
 }
 
 
@@ -30,9 +29,6 @@ if(taoSao === false){
     /* Hàm đặt style trong root */
     function setPropertyValueOf(property, value){
         r_home.style.setProperty(property, value);
-        console.log('Đã đặt style trong root');
-        console.log('Style đặt lại: ' + property);
-        console.log('Giá trị đặt lại: ' + value);
     }
 
 
