@@ -11,6 +11,7 @@ function taoSoNgauNhien(min, max){
 var taoSao = false;
 
 if(taoSao === false){
+    
     /* Phần lấy giá trị thuộc tính từ css */
     /**************************************************** */
 
